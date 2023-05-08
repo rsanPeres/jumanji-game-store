@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/e
+    username: postgres
+    password: 1234
+  jpa:
+    show-sql : true
+    mapping-resources : classpath:/META_INF/orm.xml
+    mapping-file : classpath:/META-INF/persistence.xml
+    #hibernate:
+    properties:
+      hibernate:
+        default_schema : public
+flyway:
+  configurationFiles: classpath:flyway.properties
+  locations: classpath:/db/migration

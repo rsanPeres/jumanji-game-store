@@ -1,0 +1,7 @@
+<persistence-unit-metadata>
+    <persistence-unit-defaults>
+        <entity-mappings>
+            <package>com.jumanji.games.entity</package>
+        </entity-mappings>
+    </persistence-unit-defaults>
+</persistence-unit-metadata>
